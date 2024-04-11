@@ -1,0 +1,91 @@
+body{
+    width: 100%;
+}
+ 
+.Encabezado1{
+    border-width:4px;
+    margin: 1px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Grow{
+    color: rgb(32, 151, 157);
+}
+
+.Texto{
+    border-width:4px;
+    margin: 1px;
+    display: flex;
+    color: gray;
+    flex-wrap: nowrap;
+}
+
+.Texto2{
+    border-width:4px;
+    padding: 10px;
+}
+ 
+.Sub{
+    border-width:4px;
+    width: 100%;
+    margin: 5px;
+}
+ 
+.Textolef{
+    border-width:4px;
+    width: 50%;
+    margin: 5px;
+    color: gray;
+}
+
+.Ajuste{
+    border-width:4px;
+    width: 50%;
+    margin: 5px;
+}
+
+.Texto3{
+    border-width:4px;
+    margin: 1px;
+    width: 100%;
+    text-align: left;
+}
+ 
+.Tipos{
+    border-width:4px;
+    margin: 5px;
+    width: calc(25% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+ 
+.fila{
+    text-align: center;
+}
+ 
+.fila:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+ 
+ul{
+    list-style: none;
+    text-align: left
+}
+ 
+h4{
+    text-align: left;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+footer{
+    height: 250px;
+    background-color: black; 
+    color: white; 
+    display: grid;
+    grid-template-rows: 40%, 1fr;
+}
